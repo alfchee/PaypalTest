@@ -1,0 +1,159 @@
+
+body {
+    background-color: #E5EAEE;
+    font-family: 'Ubuntu', sans-serif;
+}
+h4 {
+    font-size: 130%;
+}
+p {
+    margin: 0.6em 0 1.2em;
+    padding: 0;
+}
+
+#checkout-main {
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+}
+#cart .inner,
+#cart-summary .inner {
+    background: #fff;
+    margin: 18px 18px 18px 25px;
+}
+#cart h1 {
+    float: none;
+    font-weight: lighter;
+    font-size: 2.1em;
+    line-height: 1em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#cart h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-bottom: 8px;
+    margin: 0;
+}
+#cart .qty {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+#cart .remove {
+    float: right;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-right: 10px;
+}
+#cart-summary {
+    float: left;
+    width: 318px;
+}
+#cart-summary .price {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.accepted-payment {
+    padding-top: 18px;
+}
+.border-top {
+    border-top: solid 1px #E5E5E5;
+}
+.cart-item {
+    display: inline-block;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 30px 0 22px 0; 
+    width: 100%;
+}
+.checkout-inner {
+    clear: both;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1000px;
+}
+.checkout-left-pane {
+    float: left;
+    margin-right: 20px;
+    width: 622px;
+}
+.checkout-now {
+    background-color: #5594DB;
+    font-size: 1.2em;
+    height: auto;
+    margin: 0;
+    padding: 16px 0;
+    width: 100%;
+}
+.checkout-pane {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.checkout-right-pane {
+    float: left;
+    width: 318px;
+}
+.price {
+    color: #5893D7;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.product-description {
+    float: left;
+    width: 411px;
+}
+.product-info {
+    font-size: 1.1.em;
+    line-height: 1.2em;
+    opacity: 0.8;
+}
+.product-thumbnail {
+    float: left;
+    height: 185px;
+    padding-right: 19px;
+}
+.qty-line {
+    float: left;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.subtotal-field {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.subtotal-line {
+    display: inline-block;
+    width: 100%;
+}
+.subtotal-line {
+    display: inline-block;
+    width: 100%;
+}
+.subtotal-line.other-cost {
+    font-size: 1.1em;
+}
+.subtotal-order-recap {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.summary-header {
+    background: #444D54;
+    color: #fff;
+    height: 60px;
+    padding: 12px 12px 12px 20px;
+}
+.summary-header h2 {
+    float: left;
+    font-size: 2.1em;
+    font-weight: lighter;
+    line-height: 1em;
+    margin: 0;
+}
+.total-order {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}

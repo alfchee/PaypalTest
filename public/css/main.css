@@ -1,0 +1,99 @@
+
+/*  ID's                          */
+/*--------------------------------*/
+#add-site-manager {
+    display: none;
+}
+#result {
+    display: none;
+}
+#result thead {
+    cursor: pointer;
+}
+#result thead tr th {
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+}
+#result thead tr th span {
+    background-position: 100% 40%;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+#result thead tr th.headerSortUp span {
+    background-image: url(../img/asc.gif);
+}
+#result thead tr th.headerSortDown span {
+    background-image: url(../img/desc.gif);
+}
+#url {
+    width: 500px;
+    min-width: 320px;
+}
+
+/*  Classes                     */
+/*------------------------------*/
+.company-information {
+    padding: 40px 15px;
+    text-align: center;
+}
+.fa-spin-custom, .icon-spinner {
+  -webkit-animation: spin 1000ms infinite linear;
+  animation: spin 1000ms infinite linear;
+}
+.info-title {
+    display: block;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.info-url {
+    display: block;
+    color: #525252;
+}
+.note-edition {
+    display:none;
+}
+.save-note {
+    margin-top: 10px;
+}
+.search {
+    padding: 50px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.table .add-note {
+    vertical-align: middle;
+}
+.table td.notes {
+    vertical-align: middle
+}
+.table th {
+    text-align: center;
+}
+.table-bordered td.notes,
+.table-bordered th.notes {
+    border-left: 3px solid #757474;
+}
+
+/*  Animations                  */
+/*------------------------------*/
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
